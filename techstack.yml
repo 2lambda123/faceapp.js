@@ -1,0 +1,159 @@
+repo_name: 2lambda123/faceapp.js
+report_id: 03c4009c1a95b2251874bdcf5022a17b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:18:33+00:00'
+requested_by: luludotdev
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/faceapp.js
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2017-09-04 22:23:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Jack Baron
+  last_updated_on: 2017-09-04 22:24:26.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2017-09-04 22:23:35.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2018-06-07 11:28:21.000000000 Z
+- name: superagent library
+  description: robust and clean node and browser reqest library
+  website_url: https://visionmedia.github.io/superagent/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8032/pBeeJQDQ_normal.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2018-12-01 02:06:32.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2018-06-07 11:28:21.000000000 Z
+- name: cli-spinner
+  description: A simple spinner
+  package_url: https://www.npmjs.com/cli-spinner
+  version: 0.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17246/default_8da30b412bf0dbb63f862bee0dfab0a32df2fb69.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2018-02-23 00:02:41.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 2.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2018-10-13 09:13:40.000000000 Z
+- name: randomstring
+  description: A module for generating random strings
+  package_url: https://www.npmjs.com/randomstring
+  version: 1.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17165/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2017-09-04 23:13:48.000000000 Z
+- name: superagent
+  description: Elegant &amp; feature rich browser / node HTTP with a fluent API
+  package_url: https://www.npmjs.com/superagent
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16046/default_939338dc71400138c5e4a3464e041bf30f8f82ba.png
+  detection_source_url: https://github.com/2lambda123/faceapp.js/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jack Baron
+  last_updated_on: 2018-12-01 02:06:32.000000000 Z
